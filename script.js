@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  $('h1').mouseover(function(){
-    alert("hello");  
+  $('.header').mouseover(function(){
+    $('.header').html('goodbye');
   });
 });
